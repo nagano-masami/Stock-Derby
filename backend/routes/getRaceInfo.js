@@ -64,9 +64,9 @@ router.post('/', (req, res, next) => {
                     booleanSelectionArray.push(Boolean(horseSelectionData.number18_flag));
 
                     let horseSelectionArray = [];
-                    for(let a=1; a<=booleanSelectionArray.length; a++){
+                    for(let a=0; a<booleanSelectionArray.length; a++){
                         if(booleanSelectionArray[a]){
-                            horseSelectionArray.push(('00' + a).slice(-2));
+                            horseSelectionArray.push(('00' + (a+1)).slice(-2));
                         }
                     }
 

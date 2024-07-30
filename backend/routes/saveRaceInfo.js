@@ -125,7 +125,7 @@ router.post('/', async (req, res, next) => {
             }
             // 金額単位
             var amountUnitId = "";
-            switch(raceInfo.selectUnitDigitText){
+            switch(raceInfo.selectUnitText){
                 case "千円": amountUnitId = "002"; break;
                 case "万円": amountUnitId = "003"; break;
                 default: amountUnitId = "001"; break;

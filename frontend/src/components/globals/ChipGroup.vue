@@ -5,7 +5,6 @@
     active-class="grey darken-3--text text--accent-4"
     multiple
     >
-    {{ selectionNumber }}
         <v-chip
             v-for="size in sizes"
             :key="size"

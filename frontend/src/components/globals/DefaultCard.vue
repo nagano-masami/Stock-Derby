@@ -33,7 +33,7 @@
             overflow
             v-model="defaultCard.selectUnit"
             @input="updatedData"
-            item-value="digit"
+            item-value="defaultCard.selectUnit"
             
         ></v-combobox>
         </v-toolbar>
