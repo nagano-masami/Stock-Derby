@@ -64,22 +64,6 @@
           @update-chip-group="updateNormalSelection3" />
       </v-tab-item>
     </v-tabs-items>
-    {{ defaultBar }}
-    {{ formationDefaultCard }}
-    {{ boxDefaultCard }}
-    {{ normalDefaultCard }}
-    {{ boxSelection1 }}
-
-    {{ formationSelection1 }}
-    {{ formationSelection2 }}
-    {{ formationSelection3 }}
-    {{ normalSelection1 }}
-    {{ normalSelection2 }}
-    {{ normalSelection3 }}
-    {{ quinella }}
-    {{ exacta }}
-    {{ trio }}
-    {{ trifecta }}
   </v-card>
 </template>
 
